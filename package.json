@@ -1,0 +1,26 @@
+{
+  "name": "imgdownloader",
+  "version": "1.0.0",
+  "description": "A small module to download and save an image from the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoujuFrancoisPro/imgDownloader.git"
+  },
+  "keywords": [
+    "image",
+    "download"
+  ],
+  "author": "Bouju Francois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoujuFrancoisPro/imgDownloader/issues"
+  },
+  "homepage": "https://github.com/BoujuFrancoisPro/imgDownloader#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
