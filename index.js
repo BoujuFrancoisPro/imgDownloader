@@ -66,7 +66,6 @@ class imgDownloader {
             //save it at the right location
             response.data.pipe(buffer)
             buffer.on('finish', () =>{
-                console.log("ma bite sur ton front ça fait une montagne");
                 isDownloaded = true;
             });
             
