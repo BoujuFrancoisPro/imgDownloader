@@ -1,4 +1,4 @@
-# imgDownloader5
+# imgDownloader
 
 ## Installation 
 
@@ -7,7 +7,7 @@
 ## Usage
 
 ```js
-const imgDownloader = require('./index');
+const imgDownloader = require('imgdownloader');
 
 let client = new imgDownloader('images');
 
