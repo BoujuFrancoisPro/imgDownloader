@@ -1,4 +1,4 @@
-# ggis - Google Image Search
+# imgDownloader5
 
 ## Installation 
 
@@ -32,7 +32,7 @@ Promise.all([getImage2(), getImage3()])
     // ...
 });
 ```
-**Note** : There is no need to the the file an extension it will automatically be pick up from the url
+**Note** : There is no need to add the the file an extension it will automatically be pick up from the url
 
 ## API
 
