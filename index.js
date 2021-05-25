@@ -37,8 +37,6 @@ class imgDownloader {
         //check if the full path is already taken if so the function will add the date to the filename
         fullPath = this.fileExists(fullPath);
         
-    
-
         // try to download the image from the url
         let response;
         try {
