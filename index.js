@@ -86,7 +86,7 @@ class imgDownloader {
         if (fs.existsSync(fullPath)) {
 
             let date = new Date(Date.now());
-            var today = date.getDay() + '-' + date.getMonth() + '-' + date.getFullYear() + '-' + date.getSeconds();
+            var today = date.getDay() + '-' + date.getMonth() + '-' + date.getFullYear() + '-' + date.getHours() + date.getMinutes() + date.getSeconds();
 
             parsedFullPath.name = parsedFullPath.name + '-' + today; 
             parsedFullPath.base = parsedFullPath.name + parsedFullPath.ext;

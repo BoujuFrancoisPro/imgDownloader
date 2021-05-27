@@ -1,6 +1,6 @@
 {
   "name": "imgdownloader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small module to download and save an image from the web",
   "main": "index.js",
   "scripts": {
